@@ -1,0 +1,11 @@
+body {
+    background: #F3F5FC;
+}
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
