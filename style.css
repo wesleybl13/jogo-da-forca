@@ -1,23 +1,18 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.logo {
-    position: absolute;
-    width: 120px;
-    height: 48px;
-    left: 40px;
-    top: 40px;
+nav { padding: 0 50px; }
+nav img { margin-top: 30px; }
+
+body {
+    background-color: #F3F5FC;
+    color: #333;
 }
 
-#div1 {
-    background: #F3F5FC;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-}
+button:hover { cursor: pointer; }
 
 .buttons {
     height: 900px;
@@ -39,14 +34,17 @@
     align-items: center;
 }
 
-#start {
+button#start {
     /* Dark blue/dark-blue-300 */
-    background: #0A3871;
+    background-color: #0A3871;
+    color: #F3F5FC;
     box-sizing: border-box;
     border-radius: 24px;
 }
 
-#add {
+button#add {
+    background-color: #F3F5FC;
+    color: #0A3871;
     border: 1px solid #0A3871;
     box-sizing: border-box;
     border-radius: 24px;
